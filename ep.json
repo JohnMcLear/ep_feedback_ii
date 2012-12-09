@@ -1,0 +1,12 @@
+{
+  "parts" : [
+    {
+      "name":"ep_feedback_ii",
+      "hooks":{
+        "eejsBlock_scripts":"ep_feedback_ii/static/js/feedbackii",
+        "eejsBlock_editbarMenuRight":"ep_feedback_ii/static/js/feedbackii",
+        "eejsBlock_styles":"ep_feedback_ii/static/js/feedbackii"
+      }
+    }
+  ]
+}

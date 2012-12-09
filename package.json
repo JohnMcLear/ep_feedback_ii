@@ -1,0 +1,17 @@
+{
+  "name": "ep_feedback_ii",
+  "version": "0.0.4",
+  "keywords": "feedback, button, ideainformer",
+  "description": "Add a feedback button for idea informer to the right hand toolbar",
+  "contributors": [
+    {
+      "name": "Mark Fisher",
+      "email": "eldiddio@gmail.com",
+      "url": "http://www.primarypad.com"
+    }
+  ],
+  "dependacies": {},
+  "engines": {
+    "node": "*"
+  }
+}
