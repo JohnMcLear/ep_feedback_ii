@@ -5,12 +5,12 @@ exports.eejsBlock_scripts = function(hook_name, args, cb){
   try {
     if (settings.ep_feedback_ii.domain){
       var domain = settings.ep_feedback_ii.domain;
+      args.content = args.content + "<script type='text/javascript' language='JavaScript' src='http://idea.informer.com/tab6.js?domain="+domain+"'></script>";
     }
   } catch (e){
-    console.warn("ep_feedback_ii: domain has not been set in your settings.json")
+    args.content = args.content + "<script>alert('Your Idea Informer subdomain is not set in settings.json -- See the instructions in the README.md or https://npmjs.org/package/ep_feedback_ii');</script>";
     var domain = "";
   }
-  args.content = args.content + "<script type='text/javascript' language='JavaScript' src='http://idea.informer.com/tab6.js?domain="+domain+"'></script>";
   return cb();
 }
 exports.eejsBlock_editbarMenuRight = function(hook_name, args, cb){

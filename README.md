@@ -5,16 +5,20 @@ Adds a Feedback icon to the top bar on the right for use with idea informer.
 
 Requires:
 
-"ep_feedback_ii":{
-  "domain":"my idea informer domain"
-}
+1.  A free feedback voting account from Idea Informer.  http://idea.informer.com/
 
-Adding to your settings.json
+2. Add the below to your settings.json by either editing with a text editor then restarting Etherpad or editing by visiting /admin/settings on your Etherpad instance.
+```
+"ep_feedback_ii":{
+  "domain":"my idea informer domain subdomain ie Etherpad"
+}
+```
+
 
 ## License ##
 Released under the MIT license.
 
-    Copyright (c) 2012 Mark Fisher
+    Copyright (c) 2012 Mark Fisher (Primary Technology Ltd)
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
