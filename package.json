@@ -1,7 +1,15 @@
 {
   "name": "ep_feedback_ii",
-  "version": "0.0.4",
-  "keywords": ["feedback", "button", "ideainformer", "idea", "informer", "vote", "feature"],
+  "version": "0.0.5",
+  "keywords": [
+    "feedback",
+    "button",
+    "ideainformer",
+    "idea",
+    "informer",
+    "vote",
+    "feature"
+  ],
   "description": "Add a feedback button for idea informer to the right hand toolbar",
   "contributors": [
     {
