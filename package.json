@@ -26,5 +26,9 @@
   "dependacies": {},
   "engines": {
     "node": "*"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "http://etherpad.org/"
   }
 }
